@@ -4,7 +4,7 @@ export const ServiceLayout = () => {
   return (
     <div id="service">
       <div className="container">
-        <div className="service-layout d-flex justify-content-around">
+        <div className="service-layout d-flex flex-column flex-md-row align-items-center justify-content-around">
           <div className="service-layout-item d-flex align-items-center">
             <div className="service-icon">
               <FaTruck />
