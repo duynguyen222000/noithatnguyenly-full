@@ -1,0 +1,27 @@
+.header-top{
+    height: 4rem;
+    font-weight: 500;
+    &_left{
+        p{
+            margin:unset;
+        }
+        .item{
+            padding-right: 1rem;
+            cursor: pointer;
+        }
+        .item.active-text{
+            color:red;
+        }
+    }
+    &_right{
+        .ico{
+            cursor: pointer;
+            padding-left: 1.2rem;
+        }
+    }
+}
+.navbar{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}

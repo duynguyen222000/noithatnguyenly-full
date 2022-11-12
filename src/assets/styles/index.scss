@@ -1,0 +1,13 @@
+// Bootstrap CSS
+
+@import "./common/reset";
+@import "./typo/typo";
+@import "./components/header";
+@import "./components/slidebanner";
+@import "./components/slideproduct";
+@import "./components/service";
+
+// slick
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";

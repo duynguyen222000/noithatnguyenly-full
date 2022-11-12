@@ -1,0 +1,14 @@
+.carousel-item{
+    height: 80vh;
+    min-height: 500px;
+    &:hover img{
+        transform: scale(1.2);
+        transition: 3s ease-in-out all;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 2.5s;
+    }
+}

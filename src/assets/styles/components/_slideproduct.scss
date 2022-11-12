@@ -1,0 +1,48 @@
+.slideproduct{
+    .title{
+        h2{
+            font-weight: normal;
+            text-transform: uppercase;
+            font-size: 40px;
+        }
+    }
+    .slide-product{
+        
+    margin: 0 -8px;
+    .slide-product-item{
+        padding:  0 8px;
+       
+        .item-img{
+            width: 100%;
+            height: 300px;
+            img{
+                object-fit: cover;
+            }
+        }
+        .item-text{ 
+            border: 1px solid  gray;
+            &-name{
+                font-size: 24px;
+                font-weight: 500;
+                margin: unset;
+            }
+            &-price{
+                font-weight: 500;
+                font-size: 20px;
+                margin: unset;
+            }
+        }
+    }
+    }
+    .slick-prev:before, .slick-next:before {
+       font-size: 30px;
+    }
+    .slick-next {
+        right: 21px !important;
+    }
+        .slick-prev {
+            left: 16px;
+            z-index: 99;
+        }
+    
+}

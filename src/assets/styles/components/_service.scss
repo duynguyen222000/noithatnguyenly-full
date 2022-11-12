@@ -1,0 +1,17 @@
+#service{
+    margin: 60px 0;
+    .service-layout{
+        &-item{
+            .service-icon{
+                font-size: 60px;
+                line-height: 1;
+                margin-right: 16px;
+            }
+            .service-title{
+                &-sub{
+                    margin-bottom: 0 !important;
+                }
+            }
+        }
+    }
+}
